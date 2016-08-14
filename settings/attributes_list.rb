@@ -3,15 +3,18 @@
     "default" => {
     },
 
-    "dev" => {
+    "prod" => {
     },
   },
 
   "web" => {
     "default" => {
+      "hostname_attr" => {
+        "hostname" => "centrage"
+      }
     },
 
-    "dev" => {
+    "prod" => {
     }
   }
 }

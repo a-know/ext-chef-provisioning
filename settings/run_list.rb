@@ -6,15 +6,16 @@
     "default" => [
     ],
 
-    "dev" => [
+    "prod" => [
     ],
   },
 
   "web" => {
     "default" => [
+      "recipe[hostname]"
     ],
 
-    "dev" => [
+    "prod" => [
     ],
   },
 }
