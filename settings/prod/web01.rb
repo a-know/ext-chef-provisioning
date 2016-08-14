@@ -1,12 +1,11 @@
-@environment = 'dev'
+@environment = 'prod'
 @role        = 'web'
 
 @hosts = [
   {
     'host' => {
-      'name' => 'web01',
-      'host' => '192.168.0.1',
-      'port' => 22
+      'name' => 'home.a-know.me',
+      'host' => 'home.a-know.me',
     },
   }
 ]
