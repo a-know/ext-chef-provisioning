@@ -9,7 +9,9 @@
 
   "web" => {
     "default" => {
-      "hostname" => "centrage"
+      "hostname_attr" => {
+        "hostname" => "centrage"
+      }
     },
 
     "prod" => {
